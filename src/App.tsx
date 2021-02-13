@@ -32,7 +32,7 @@ export function App(): React.ReactElement {
 }
 
 async function fetchResult(expression: string): Promise<string> {
-  const url = new URL('http://api.mathjs.org/v4');
+  const url = new URL('https://api.mathjs.org/v4');
   url.searchParams.append('expr', expression);
   const response = await fetch(url.toString());
   return response.text();
