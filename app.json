@@ -1,0 +1,15 @@
+{
+  "name": "gm-interview-photomath",
+  "description": "Photomath interview task",
+  "stack": "heroku-20",
+  "website": "https://gm-interview-photomath.herokuapp.com/",
+  "repository": "https://github.com/mrzli/interview-photomath",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "mars/create-react-app"
+    }
+  ]
+}
