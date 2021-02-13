@@ -46,12 +46,13 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "https://api.mathjs.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrzli/gm-earnings"
+    "url": "https://github.com/mrzli/gm-interiew-photomath"
   },
   "bugs": {
-    "url": "https://github.com/mrzli/gm-earnings/issues"
+    "url": "https://github.com/mrzli/gm-nteriew-photomath/issues"
   },
   "engines": {
     "node": "15.6.0",
